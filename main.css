@@ -1,0 +1,38 @@
+
+*{
+    padding: 10;
+    font-family:'Courier New', Courier, monospace;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__item{
+    border-radius: 10px;
+    color: blue;
+    background-color: rgb(191, 191, 242);
+    
+}
+.list__item > h1{
+    font-size: 30px;
+}
+.list__item--link {
+    background-color: rgb(211, 127, 230);
+    margin-top: 2px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.produtos__produto--em-destaque { /* modificador */
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
